@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: estavel
+Components: main
+Date: Thu, 20 Aug 2026 22:08:37 +0000
+Description: Atualizacoes do Celita OS
+Label: Celita OS
+Origin: Celita
+Suite: estavel
+Version: 1
+MD5Sum:
+ 4e17ec55a356bb7ba0934a382b14a516             4261 main/binary-amd64/Packages
+ e32c49c0b26c595a623bc3017866cc03             2035 main/binary-amd64/Packages.gz
+ 110752d2eafb04f3c47dee15aa15a1b1             4261 main/binary-arm64/Packages
+ e31309f2dc643df1126b4e709763bcad             2038 main/binary-arm64/Packages.gz
+SHA1:
+ c37ae2c835f377c04573b8701adc83fd03d4bb97             4261 main/binary-amd64/Packages
+ 9e6bbe9801d76e066d0753c6a8bb86297afd3e7c             2035 main/binary-amd64/Packages.gz
+ e9ff1b0951e498f5257973bcf27e5c783fa0a144             4261 main/binary-arm64/Packages
+ b730d71d705f1e555fc02e81029dac645f4665b3             2038 main/binary-arm64/Packages.gz
+SHA256:
+ 2cb352dccb59ed9105d0fa821df2464fa191c06a4869919fe99f38c7edaaedc9             4261 main/binary-amd64/Packages
+ 1bd96c22a5e7fccd7580190ea8a44090eabcef2326d65a1686bc9c4fd987f84b             2035 main/binary-amd64/Packages.gz
+ 922af6b40dba55d6e1505595c55b8ddd5224b6fc1d94f0455e02463e5eb892cb             4261 main/binary-arm64/Packages
+ 5850856ad2a3e3ae1427f5ad53fc710392f49736e27f4c6bb84d6b045ce90123             2038 main/binary-arm64/Packages.gz
+SHA512:
+ 6cff31e5783b9269167ddeeb12c043600d897fb57980d4c8ef7c5ff417058c56c5cdabd6bc1122b7ea8824020dd70c1c37df30e8699af0a4c282504e1f6d7aa0             4261 main/binary-amd64/Packages
+ 4fce46b2486cc095e49f98153c6ccf01bc6d526e8219631fd4b770f6eaaac31598061fb0019811f99ed70082d1bebb533451d1a26cf8020fd2802ee3685c1a64             2035 main/binary-amd64/Packages.gz
+ 88f602b65114c9a67fb1b7ebbb93df63e48887f79f922dc789e9727b5c1ec7f68a83e76dbc7bfe33924f7221dc7c67fdb22b293c13b73d36cec1c429198297db             4261 main/binary-arm64/Packages
+ 1e8a049e5c6e58de1cd6a263df055353131c031a522326c869e73dafff5d53013075c9530e5e7091d9c802a3cee7456fe3175548f8624ece3f5c8de855fa770b             2038 main/binary-arm64/Packages.gz
+Valid-Until: Tue, 16 Feb 2027 22:08:37 UTC
+-----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQT/GurZGXd9GNZwnKWJishYDBdtzAUCaod65RsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQiYrIWAwXbczhRwEA9jbkf4C3cq0SJHlrLOKD
+uUQFvFtdt6O0MIh69yWSQScBAI9L4oiDESv2HGJCSNO5X38g6D3Dz7fTGCsBiDEI
+2b4E
+=LwhX
+-----END PGP SIGNATURE-----

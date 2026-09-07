@@ -42,6 +42,25 @@ Description: Ambiente completo da Escola Celita
  navegador Voges, Gerenciador de Usuários, Tela de Login, temas claro/escuro
  e barra de tarefas com Wi-Fi e calendário.
 
+Package: controle-de-aula
+Architecture: all
+Version: 0.5.0
+Priority: optional
+Section: web
+Maintainer: Escola Celita
+Depends: voges (>= 1.3.3) | celita-os-completo (>= 1.9.4), python3, python3-cryptography, systemd, util-linux, scrot, wmctrl, fswebcam, libnotify-bin, xfconf
+Filename: pool/main/c/controle-de-aula/controle-de-aula_0.5.0_all.deb
+Size: 68508
+MD5sum: a5cd038db2406ca0176ff81ea113bf2f
+SHA1: fc2f7be3f5fbd8cd1c15b9f7bef2ada22ab953a6
+SHA256: ccfc3f0de3077b5f2b149888a246b46a8c38271a6fecdafca4984b263db3c648
+SHA512: 2fa8e9c3c2bbaa194dcfd7fac78bdf14d1d6084976eaaad64c8510bcac9f429f882f0a975ca52e75f455fbf284e593e037892210699eed2379099a9ac663fbf2
+Description: Controle de Aula para o Celita OS, nas contas sem senha
+ Agente do sistema que fala com o app do professor desde o boot, sem depender
+ de navegador aberto: abas, bloqueio de sites, mensagens, papel de parede,
+ programas abertos, foto da webcam e captura da tela, tudo cifrado ponta a
+ ponta. A extensão no Voges carrega só nas contas sem senha.
+
 Package: tema-de-cursor-celita
 Architecture: all
 Version: 1.1.0

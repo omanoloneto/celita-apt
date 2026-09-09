@@ -115,6 +115,29 @@ Description: Ambiente completo da Escola Celita
 
 Package: celita-os-completo
 Architecture: amd64
+Version: 1.12.0
+Priority: optional
+Section: metapackages
+Maintainer: Escola Celita
+Provides: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, tema-de-icones-celita, tema-de-cursor-celita, tema-gtk-celita, controle-de-aula, celita-visual
+Depends: python3-yaml, gir1.2-nm-1.0, libnm0, libupower-glib3, libpulse0, libpulse-mainloop-glib0, libcanberra-gtk3-0, python3, python3-gi, python3-cairo, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, libgtk-3-0t64, libglib2.0-0t64, libglib2.0-bin, xdg-utils, xdg-user-dirs, desktop-file-utils, xfce4-panel, xfconf, xfce4-session, x11-xserver-utils, network-manager-applet, lxpolkit, chromium, chromium-l10n, passwd, adduser, tar, acl, util-linux, libpam-runtime, libpam-modules, pkexec, libxfconf-0-3, xfce4-settings, lightdm, liblightdm-gobject-1-0, librsvg2-common, gvfs, pulseaudio-utils, fonts-inter-variable, fonts-noto-color-emoji, apt, ca-certificates, init-system-helpers, libnotify-bin, xfce4-notifyd, xfce4-power-manager, xfce4-power-manager-plugins, locales, tzdata, plymouth, plymouth-themes, python3-cryptography, systemd, polkitd, scrot, wmctrl, fswebcam, qrencode
+Recommends: xfce4-terminal, papirus-icon-theme, bluez, blueman, brightnessctl, rfkill, thunar-volman
+Conflicts: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, celita-visual
+Replaces: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, tema-de-icones-celita, tema-de-cursor-celita, tema-gtk-celita, controle-de-aula, celita-visual
+Filename: pool/main/c/celita-os-completo/celita-os-completo_1.12.0_amd64.deb
+Size: 3757960
+MD5sum: 1ac8e55e720bbe374e80e8aa5c6cc503
+SHA1: 84c7509befeb1d80b6eaaabd04a03646bb888ccf
+SHA256: 9264a971bb787cbcc5b310aa7af1a405da54464cae698dcd0682c25150258092
+SHA512: 82fa0e4dce3dd60152697c777def699edb58f6e2c56ea2a84724a7c9fd61e0beb98916c5ca077347832b51bb6ebfaaff83384b3bdb340020e497348d44561227
+Description: Ambiente completo da Escola Celita
+ Um arquivo instala tudo: Explorador de Arquivos, Instalador de Software, Menu
+ Iniciar, navegador Voges, Gerenciador de Usuários, Tela de Login, Central de
+ Configurações, barra de tarefas, os temas de ícones, cursor e GTK, o Controle
+ de Aula e o canal de atualizações.
+
+Package: celita-os-completo
+Architecture: amd64
 Version: 1.9.2
 Priority: optional
 Section: metapackages
@@ -218,6 +241,26 @@ Description: Aplicativo do professor e controle das contas de aluno no Celita OS
  ponta. O aplicativo de pareamento aparece somente ao professor/administrador.
  A integração de abas do Voges funciona em segundo plano nas contas sem senha.
 
+Package: controle-de-aula
+Architecture: all
+Version: 0.6.1
+Priority: optional
+Section: web
+Maintainer: Escola Celita
+Depends: voges (>= 1.3.3) | celita-os-completo (>= 1.9.4), python3, python3-cryptography, python3-gi, gir1.2-gtk-3.0, qrencode, systemd, util-linux, scrot, wmctrl, fswebcam, libnotify-bin, xfconf
+Filename: pool/main/c/controle-de-aula/controle-de-aula_0.6.1_all.deb
+Size: 66180
+MD5sum: 833d75b9acd5b4f5acb429cd8276ba68
+SHA1: 4bb8fb0732636f9ffd1c309d67da88c536150e26
+SHA256: 0a8261957d75f7ec2d1fef6e57ce57858acdfc8ae3949195b55c069ad0e694bd
+SHA512: 1a5f21436229e0e6b5c3973f40c9c494ce8db507e274d1fa6eb7bf70daec04ba5a7d57fe660362f69a2ffaf206142cef8cfc909256d6ab47df4e7b31a5c9a5f9
+Description: Aplicativo do professor e controle das contas de aluno no Celita OS
+ Agente do sistema que fala com o app do professor desde o boot, sem depender
+ de navegador aberto: abas, bloqueio de sites, mensagens, papel de parede,
+ programas abertos, foto da webcam e captura da tela, tudo cifrado ponta a
+ ponta. O aplicativo de pareamento aparece somente ao professor/administrador.
+ A integração de abas do Voges funciona em segundo plano nas contas sem senha.
+
 Package: tema-de-cursor-celita
 Architecture: all
 Version: 1.1.0
@@ -225,11 +268,11 @@ Priority: optional
 Section: x11
 Maintainer: Escola Celita
 Filename: pool/main/t/tema-de-cursor-celita/tema-de-cursor-celita_1.1.0_all.deb
-Size: 914432
-MD5sum: d08b07b8f4f34f5c1e690e1c7f81ac6c
-SHA1: fc011248f7e183a4a23f67d85993636e0ad041c8
-SHA256: ec543a7719f243a2e9a0b84c45b3609721314f160eacecfd2d5c1b4c0f02417b
-SHA512: f5c128012bce5fd0d79b699890a99897d923df564582aa3b5196a2e23e189c6d64ccc3ed672cbeaee46a07d65d187309bb5982624093b2b33b54ff3a83f7ff1b
+Size: 914504
+MD5sum: 55b0db1cc2765fe641ab46a04e0c49dd
+SHA1: fa0110a8348a2ba4090567e884d3ab9a385e3edd
+SHA256: a7c3f4ee947a92a58dc63278625579528f57581e491488fa21348751322d94d8
+SHA512: 4210aabdd65a1a7a045e6a158448580b9aaff5008321c8cdc5af876f2ab67a9b3ab8a0654673478cc4084f4fcd740dd6e62a967cfb428736ad12f5f2a37c9dd7
 Description: Tema de cursor do Celita OS
  Cursor BreezeX, com preenchimento escuro e contorno claro, legível tanto no
  tema claro quanto no escuro. Aplicado pelo celita-theme quando instalado.
@@ -242,11 +285,11 @@ Section: x11
 Maintainer: Escola Celita
 Recommends: papirus-icon-theme
 Filename: pool/main/t/tema-de-icones-celita/tema-de-icones-celita_1.3.0_all.deb
-Size: 40100
-MD5sum: a0384ddcaf7e52a765f567c1b88b7122
-SHA1: c5459cca94d3d943ac014601c75c22a175352b98
-SHA256: 82d791c44958b4b73ef3af94b436ccd4c87402e4dc1f5fd608617109943480f3
-SHA512: 1d1789ce7d42cbaa3d47703416517bfdfe457096e5fa326e37cf95f78ea0ebd0c6fb7cc037480898542d88233473b3389b2e318eb5683f07f362c9fe4d273f35
+Size: 40164
+MD5sum: f2c8ff2af44bc7b4d636b0149ed2c684
+SHA1: 9f109f6bf98c7f116b3e6a1cf1170f188b0798a0
+SHA256: cde1307f0b51a2d6ddefa3805296f1bee912e696605a7b25899feeec10410e2c
+SHA512: 718fe0419829f7861903d0ea57a588c7b80b539252b0af329130ce4a816c96b43c387afb89c8a7252b51d58470a3452bbeb6df7537028e05bd9a470839b47e66
 Description: Tema de ícones coloridos do Celita OS
  Tema leve com ícones de Explorador, Computador, Documentos, Imagens,
  Lixeira, Usuários, pacotes DEB, textos e PDFs, além dos ícones de rede da
@@ -259,11 +302,11 @@ Priority: optional
 Section: x11
 Maintainer: Escola Celita
 Filename: pool/main/t/tema-gtk-celita/tema-gtk-celita_1.0.0_all.deb
-Size: 128724
-MD5sum: 433e0ce296ee261ed20082d99b697d77
-SHA1: e50805828f7fa69d199c7facd4c035270e894d58
-SHA256: 8027a9b5f4a4b4c4db7f826e6912f34dba7ad6b5ceca0a0b29bd07228a37f18c
-SHA512: 8708dc4b7866343cfbe941ee2189b941bb38cc9d22b4f8a3682a096dbb6ff6403bacd4b4687b181495a57570c82706353c03b0950860ac8cdfbd212656cf8d03
+Size: 128748
+MD5sum: 1975aceaacb1f18067b90ab8e7f703e1
+SHA1: ecdffd892d0126a6006701eb36148bc9900c0ace
+SHA256: 510c0059ad2290eb7b0ddfc30b09057892b3e37c8fb70379306d0037df72250f
+SHA512: 46f40e4cb877e9650e236bfadb73fd103b8010cea19ec08dd2bee8b5f855b53924301708b9d7e63e5e6790428e4cab59691f0ca9ae4de2731c59b65e4fd92585
 Description: Tema GTK do Celita OS
  Tema Fluent nas variantes compactas clara e escura, com decoração de janela do
  xfwm4 combinando. É o que dá ao sistema a aparência de Windows; sem ele o

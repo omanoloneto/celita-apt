@@ -253,6 +253,29 @@ Description: Ambiente completo da Escola Celita
 
 Package: celita-os-completo
 Architecture: amd64
+Version: 1.17.0
+Priority: optional
+Section: metapackages
+Maintainer: Escola Celita
+Provides: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, tema-de-icones-celita, tema-de-cursor-celita, tema-gtk-celita, controle-de-aula, celita-visual
+Depends: python3-yaml, gir1.2-nm-1.0, libnm0, libupower-glib3, libpulse0, libpulse-mainloop-glib0, libcanberra-gtk3-0, python3, python3-gi, python3-cairo, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, libgtk-3-0t64, libglib2.0-0t64, libglib2.0-bin, xdg-utils, xdg-user-dirs, desktop-file-utils, xfce4-panel, xfconf, xfce4-session, x11-xserver-utils, network-manager-applet, lxpolkit, chromium, chromium-l10n, passwd, adduser, tar, acl, util-linux, libpam-runtime, libpam-modules, pkexec, libxfconf-0-3, xfce4-settings, lightdm, liblightdm-gobject-1-0, librsvg2-common, gvfs, pulseaudio-utils, fonts-inter-variable, fonts-noto-color-emoji, apt, ca-certificates, init-system-helpers, libnotify-bin, xfce4-notifyd, xfce4-power-manager, xfce4-power-manager-plugins, locales, tzdata, plymouth, plymouth-themes, python3-cryptography, systemd, polkitd, scrot, wmctrl, fswebcam, zbar-tools, qrencode
+Recommends: power-profiles-daemon, xfce4-terminal, papirus-icon-theme, bluez, blueman, brightnessctl, rfkill, thunar-volman
+Conflicts: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, celita-visual
+Replaces: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, tema-de-icones-celita, tema-de-cursor-celita, tema-gtk-celita, controle-de-aula, celita-visual
+Filename: pool/main/c/celita-os-completo/celita-os-completo_1.17.0_amd64.deb
+Size: 3798360
+MD5sum: 0cc6575624afc08691825aa69e20d0e9
+SHA1: 845a5a119d44d752e222fb643b93e77b5cf95c8f
+SHA256: f2b7c9dcf05dd7c0d3ce848e7dcd231b43d8f359f5c927903e267500f9a51b75
+SHA512: 8fd5160c46b5576743ea0019b52a25abbf8a2b803386aa332cefe25838b4edf7d20ce98ba9bf72d00be0e53e4cf282ad62cdf5867399128cda3a3c95315a0f35
+Description: Ambiente completo da Escola Celita
+ Um arquivo instala tudo: Explorador de Arquivos, Instalador de Software, Menu
+ Iniciar, navegador Voges, Gerenciador de Usuários, Tela de Login, Central de
+ Configurações, barra de tarefas, os temas de ícones, cursor e GTK, o Controle
+ de Aula e o canal de atualizações.
+
+Package: celita-os-completo
+Architecture: amd64
 Version: 1.9.2
 Priority: optional
 Section: metapackages
@@ -411,6 +434,28 @@ MD5sum: 96a981021b002d761b58016bbb02807c
 SHA1: 24cd937e6303bd5a0aedf380c87afef163858437
 SHA256: 6b510293774bbfb41d59a27ab1fd3a44df9d6196fa534f885ec16a4c01b44e86
 SHA512: 0c19ab1b85c8fa47b28fcb23e58f76a2f16547103a69558a3e0fe6f691b1087fa1e58e4d92f1a9cefdf5ac6fef7ebafd79bd88a83ffb8713be348f517a29d95e
+Description: Aplicativo do professor e controle das contas de aluno no Celita OS
+ Agente do sistema que fala com o app do professor desde o boot, sem depender
+ de navegador aberto: abas, bloqueio de sites, mensagens, papel de parede,
+ programas abertos, foto da webcam e captura da tela, tudo cifrado ponta a
+ ponta. O aplicativo do professor (computadores da turma, regras de sites,
+ papel de parede e página inicial) e o de pareamento aparecem somente ao
+ professor/administrador.
+ A integração de abas do Voges funciona em segundo plano nas contas sem senha.
+
+Package: controle-de-aula
+Architecture: all
+Version: 0.9.0
+Priority: optional
+Section: web
+Maintainer: Escola Celita
+Depends: voges (>= 1.3.3) | celita-os-completo (>= 1.9.4), python3, python3-cryptography, python3-gi, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, qrencode, systemd, util-linux, scrot, wmctrl, fswebcam, zbar-tools, libnotify-bin, xfconf, xdg-utils
+Filename: pool/main/c/controle-de-aula/controle-de-aula_0.9.0_all.deb
+Size: 88156
+MD5sum: b0c2805d9c59fe2f9cfb1c0d04763728
+SHA1: 4b559f0a66da854ffc185d8e4d5e7bc1402577c9
+SHA256: 16c89843a57deaf6b219b75273509ac121fdd3599fe595b1d5783746f6998d20
+SHA512: 2564f21f2006741eb7bf1a734a469ead9c7d896e9618bfe5d706d3670ba560bd4e8eb3f4dd463e45d50ff25fac88ca316ffc7cc613a57414d7a4479f24080968
 Description: Aplicativo do professor e controle das contas de aluno no Celita OS
  Agente do sistema que fala com o app do professor desde o boot, sem depender
  de navegador aberto: abas, bloqueio de sites, mensagens, papel de parede,

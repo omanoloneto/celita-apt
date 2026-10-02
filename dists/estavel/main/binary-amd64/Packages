@@ -575,6 +575,31 @@ Description: Ambiente completo da Escola Celita
 
 Package: celita-os-completo
 Architecture: amd64
+Version: 1.25.0
+Priority: optional
+Section: metapackages
+Maintainer: Escola Celita
+Provides: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, tema-de-icones-celita, tema-de-cursor-celita, tema-gtk-celita, controle-de-aula, celita-visual
+Depends: python3-yaml, gir1.2-nm-1.0, libnm0, libupower-glib3, libpulse0, libpulse-mainloop-glib0, libcanberra-gtk3-0, python3, python3-gi, python3-cairo, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, libgtk-3-0t64, libglib2.0-0t64, libglib2.0-bin, xdg-utils, xdg-user-dirs, desktop-file-utils, xfce4-panel, xfconf, xfce4-session, x11-xserver-utils, network-manager-applet, lxpolkit, chromium, chromium-l10n, passwd, adduser, tar, acl, util-linux, libpam-runtime, libpam-modules, pkexec, libxfconf-0-3, xfce4-settings, lightdm, liblightdm-gobject-1-0, librsvg2-common, gvfs, pulseaudio-utils, fonts-inter-variable, fonts-noto-color-emoji, apt, ca-certificates, init-system-helpers, libnotify-bin, xfce4-notifyd, xfce4-power-manager, xfce4-power-manager-plugins, locales, tzdata, plymouth, plymouth-themes, python3-cryptography, python3-xlib, systemd, polkitd, scrot, fswebcam, zbar-tools, qrencode, brightnessctl, xclip, libx11-6, libxi6, libxext6, libxrandr2, procps, power-profiles-daemon, ristretto, evince, parole, mousepad, galculator, drawing, xarchiver, unzip, zip, xfce4-taskmanager, xfce4-appfinder, tumbler, webp-pixbuf-loader
+Recommends: xfce4-terminal, papirus-icon-theme, bluez, blueman, rfkill, thunar-volman, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-gtk3, libreoffice-l10n-pt-br, hunspell-pt-br, gcompris-qt, gstreamer1.0-plugins-bad, va-driver-all
+Conflicts: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, celita-visual
+Replaces: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, tema-de-icones-celita, tema-de-cursor-celita, tema-gtk-celita, controle-de-aula, celita-visual
+Filename: pool/main/c/celita-os-completo/celita-os-completo_1.25.0_amd64.deb
+Size: 3856588
+MD5sum: 064c1179ac62ce801a28679f86143612
+SHA1: b4e62ad0fdaec583e7cadfc35c9865c53fdc0fac
+SHA256: 81b13d6719f407d3c4bfc0c39e674a5d3b9e6392d8e0db5c1e2287806e57256d
+SHA512: fc05a8d3c6c00491432159a2897dbbd58fde21ee859973ed5253fd6f64c4a4dae5a27fe820577760728796084fd5f4a92413de66ca24d901f050ff4ec4e01f18
+Description: Ambiente completo da Escola Celita
+ Um arquivo instala tudo: Explorador de Arquivos, Instalador de Software, Menu
+ Iniciar, Google Chrome, Gerenciador de Usuários, Tela de Login, Central de
+ Configurações, barra de tarefas, os temas de ícones, cursor e GTK, o Controle
+ de Aula e o canal de atualizações, além dos aplicativos do dia a dia: PDF,
+ imagens, vídeo e música, bloco de notas, calculadora, desenho e arquivos
+ compactados.
+
+Package: celita-os-completo
+Architecture: amd64
 Version: 1.9.2
 Priority: optional
 Section: metapackages
@@ -696,6 +721,28 @@ MD5sum: 36a8ed7269543c9a66f9e4ab2f061593
 SHA1: f92de1aeff394bde02afab0e226e6e2aa32453bf
 SHA256: 3ebf96cb8ae1055941383392ccf3089f2a970aac061d814d466452c4ac60e842
 SHA512: a9904c7a8c98bee41b5611f603cc5e62fa0967f0f031a5e85b3c6d74e6a32339840fd532bbd0f7bbe8e5076e01324fb15e7309aaf99ab1994736d46f5ffa29a6
+Description: Aplicativo do professor e controle das contas de aluno no Celita OS
+ Agente do sistema que fala com o app do professor desde o boot, sem depender
+ de navegador aberto: abas, bloqueio de sites, mensagens, papel de parede,
+ programas abertos, foto da webcam e captura da tela, tudo cifrado ponta a
+ ponta. O aplicativo do professor (computadores da turma, regras de sites,
+ papel de parede e página inicial) e o de pareamento aparecem somente ao
+ professor/administrador.
+ A integração de abas do Google Chrome funciona em segundo plano nas contas sem senha.
+
+Package: controle-de-aula
+Architecture: all
+Version: 0.13.0
+Priority: optional
+Section: web
+Maintainer: Escola Celita
+Depends: voges (>= 1.7.0) | celita-os-completo (>= 1.22.0), python3, python3-cryptography, python3-xlib, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, qrencode, systemd, util-linux, scrot, fswebcam, zbar-tools, libnotify-bin, xfconf, xdg-utils, pulseaudio-utils, x11-xkb-utils
+Filename: pool/main/c/controle-de-aula/controle-de-aula_0.13.0_all.deb
+Size: 193824
+MD5sum: f040a3cd040a464a37bb558918ef2801
+SHA1: 8de5bfafa6c3a9d703051849008a47c71364278e
+SHA256: a0cfd6ccc6015250d24cc6668f03877008409a45cfc265fdb81c0e59680fad13
+SHA512: 3bbd3577811925cdbcd4e901d37f5f94825634e95767f34ec87b76a819a66b35c563b9d6837b47c4ad014b1debf617291f4f2a3bc7ef076411d2a2059ea64a20
 Description: Aplicativo do professor e controle das contas de aluno no Celita OS
  Agente do sistema que fala com o app do professor desde o boot, sem depender
  de navegador aberto: abas, bloqueio de sites, mensagens, papel de parede,
@@ -897,11 +944,11 @@ Priority: optional
 Section: x11
 Maintainer: Escola Celita
 Filename: pool/main/t/tema-de-cursor-celita/tema-de-cursor-celita_1.2.0_all.deb
-Size: 896332
-MD5sum: 9dd93362f2ad14f376382dfe864e0d32
-SHA1: 961acbfefca6c6fd4581cb0c074914137825ea5c
-SHA256: 9ad71c029f29552e99729a7c815adc70da854e60cbab6b547eba40deb28ee6f5
-SHA512: cefe5f9eb4a8707f2f891819284f4f6b091474295f5bf74b859601814ee7e5c7dd1a5664fed8c3fb2b2ccd61d7fb5b06e8538771c6bfa7aa134ca52333be3140
+Size: 896256
+MD5sum: 5a514f835bd7f963fe804a097fda6a18
+SHA1: efc5fece4655f031d919f31eebc14d53175d79e9
+SHA256: a49fe068a15377988bc03236c4e2936fdcd5f23140a7a71d973aa2c5bb81969c
+SHA512: e8dc4bad1eef45f94f657e62dde68a1f811c2a46f27756e6ea5cda1919cfbec78136b390d80c6f281a218fb491bb2704bc09bc84be7312ca694f06e7b6626f87
 Description: Tema de cursor do Celita OS
  Cursor BreezeX, com preenchimento escuro e contorno claro, legível tanto no
  tema claro quanto no escuro. Aplicado pelo celita-theme quando instalado.
@@ -914,11 +961,11 @@ Section: x11
 Maintainer: Escola Celita
 Recommends: papirus-icon-theme
 Filename: pool/main/t/tema-de-icones-celita/tema-de-icones-celita_1.3.0_all.deb
-Size: 40052
-MD5sum: 9df9b3193a8e9d97d12cfe0481e4679b
-SHA1: 790480b856af3a6b2d2dcce192228ab35e8c77d2
-SHA256: 35456170ced6fdfe28bec0a9ab85f414ffb0f8e435519d86ec67f123a6511e2d
-SHA512: 57534065440dade2efc21df776ae131ae448a2e97968d1fc8dac370e13f6fa0c032f202b27f628f4ecb63d2067d75ec3bd9098fa53d15f244c79367cdb0171bd
+Size: 40064
+MD5sum: 14df429bcd4e5275cd698e9520de4ca8
+SHA1: 248ab67589cf37505c390972b556d59366f52523
+SHA256: 663d20621049971134c6290c76ee690c8d35acba1731380b52cf09544f8c4280
+SHA512: 8a8b5993ceae8f3b217e60f9b29450465b8c9e036d89a897b5ce95dadc4b33326c68b8f13da0f14f05e89b89508c143025f2bd2687335f5e184e99d99e9f7ffb
 Description: Tema de ícones coloridos do Celita OS
  Tema leve com ícones de Explorador, Computador, Documentos, Imagens,
  Lixeira, Usuários, pacotes DEB, textos e PDFs, além dos ícones de rede da
@@ -940,4 +987,22 @@ Description: Tema GTK do Celita OS
  Tema Fluent nas variantes compactas clara e escura, com decoração de janela do
  xfwm4 combinando. É o que dá ao sistema a aparência de Windows; sem ele o
  celita-theme cai no Adwaita.
+
+Package: tema-gtk-celita
+Architecture: all
+Version: 1.1.0
+Priority: optional
+Section: x11
+Maintainer: Escola Celita
+Filename: pool/main/t/tema-gtk-celita/tema-gtk-celita_1.1.0_all.deb
+Size: 136416
+MD5sum: 7161d80af7d221999551d9bda6ba2037
+SHA1: e2f7796b7c7429b117066b89ff4960d359ea05c6
+SHA256: b9d0f9bc3e1e95202dad0c204d35f0b95b840b6e01094a395eb8831a8a15cb41
+SHA512: 0ac44428a24973c29c5024671ab467024381722099961b916d9ce21e0444b7fb8c80cee8f4fb5a53aa7579b46beb6fe41af5328b943c8b4a68d76defb564f41f
+Description: Tema GTK do Celita OS
+ Tema Fluent nas variantes compactas clara e escura, com decoração de janela do
+ xfwm4 combinando e contorno de 1 px que separa as janelas sem compositor. É o
+ que dá ao sistema a aparência de Windows; sem ele o celita-theme cai no
+ Adwaita.
 

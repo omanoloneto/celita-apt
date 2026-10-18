@@ -725,6 +725,31 @@ Description: Ambiente completo da Escola Celita
 
 Package: celita-os-completo
 Architecture: arm64
+Version: 1.30.0
+Priority: optional
+Section: metapackages
+Maintainer: Escola Celita
+Provides: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, aplicativos-celita, tema-de-icones-celita, tema-de-cursor-celita, tema-gtk-celita, controle-de-aula, celita-visual
+Depends: python3-yaml, gir1.2-nm-1.0, libnm0, libupower-glib3, libpulse0, libpulse-mainloop-glib0, libcanberra-gtk3-0, python3, python3-gi, python3-cairo, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, libgtk-3-0t64, libglib2.0-0t64, libglib2.0-bin, xdg-utils, xdg-user-dirs, desktop-file-utils, xfce4-panel, xfconf, xfce4-session, x11-xserver-utils, network-manager-applet, lxpolkit, chromium, chromium-l10n, passwd, adduser, tar, acl, util-linux, libpam-runtime, libpam-modules, pkexec, libxfconf-0-3, xfce4-settings, lightdm, liblightdm-gobject-1-0, librsvg2-common, gvfs, pulseaudio-utils, fonts-inter-variable, fonts-noto-color-emoji, apt, ca-certificates, init-system-helpers, libnotify-bin, xfce4-notifyd, xfce4-power-manager, xfce4-power-manager-plugins, locales, tzdata, plymouth, plymouth-themes, python3-cryptography, python3-xlib, systemd, polkitd, scrot, fswebcam, zbar-tools, qrencode, brightnessctl, xclip, libx11-6, libxi6, libxext6, libxrandr2, libxtst6, udev, udisks2, procps, power-profiles-daemon, systemd-zram-generator, unattended-upgrades, fwupd, curl, ristretto, evince, parole, drawing, xarchiver, unzip, zip, xfce4-taskmanager, xfce4-appfinder, tumbler, webp-pixbuf-loader, libgtksourceview-4-0, fonts-dejavu-mono, libgstreamer1.0-0, libgstreamer-plugins-base1.0-0, gir1.2-gstreamer-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-gtk3
+Recommends: xfce4-terminal, papirus-icon-theme, bluez, blueman, rfkill, thunar-volman, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-gtk3, libreoffice-l10n-pt-br, hunspell-pt-br, gcompris-qt, va-driver-all
+Conflicts: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, aplicativos-celita, celita-visual
+Replaces: explorador-de-arquivos, menu-iniciar, central-de-configuracoes, voges, gerenciador-de-usuarios, tela-de-login-celita, atualizador-celita, aplicativos-celita, tema-de-icones-celita, tema-de-cursor-celita, tema-gtk-celita, controle-de-aula, celita-visual
+Filename: pool/main/c/celita-os-completo/celita-os-completo_1.30.0_arm64.deb
+Size: 3992628
+MD5sum: 4bb2b0c00ae84522792d211dae992055
+SHA1: 86b17f3d65ac2ec3a55f4f44672f0fb1ff214b18
+SHA256: 18d90497e711a8223370ceb3192794f6c9f87bdca3d4bb2ffc0f96118a70fa94
+SHA512: 1797cae1e3b8fc7700f1300b18266ea465f6f2f6c4b9f5f784da09dca41cefa207082ad55a39d33d20be14bf9e08c710003541dfb8390ec8e4baeb759e8fe9d8
+Description: Ambiente completo da Escola Celita
+ Um arquivo instala tudo: Explorador de Arquivos, Instalador de Software, Menu
+ Iniciar, Google Chrome, Gerenciador de Usuários, Tela de Login, Central de
+ Configurações, barra de tarefas, os temas de ícones, cursor e GTK, o Controle
+ de Aula e o canal de atualizações, além dos aplicativos do dia a dia: PDF,
+ imagens, vídeo e música, bloco de notas, calculadora, desenho e arquivos
+ compactados.
+
+Package: celita-os-completo
+Architecture: arm64
 Version: 1.9.2
 Priority: optional
 Section: metapackages

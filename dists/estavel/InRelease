@@ -4,38 +4,38 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: estavel
 Components: main
-Date: Thu, 29 Oct 2026 14:35:51 +0000
+Date: Fri, 30 Oct 2026 11:52:10 +0000
 Description: Atualizacoes do Celita OS
 Label: Celita OS
 Origin: Celita
 Suite: estavel
 Version: 1
 MD5Sum:
- 468c5c1aa3cd7d8ea748b9ec67116bc3           122358 main/binary-amd64/Packages
- a8cb8cca1428668bae7f78e6566e4001            14055 main/binary-amd64/Packages.gz
- f0dd7908bbbaf4f058a877d40346d948           122250 main/binary-arm64/Packages
- 4c2d92d8dd18d3a5e90c505ccef997d8            14026 main/binary-arm64/Packages.gz
+ 3bee1f874d173e6e55329ba23f14aa40           125850 main/binary-amd64/Packages
+ 5246203d891dc3ed5f189191c91e4fcc            14262 main/binary-amd64/Packages.gz
+ 7ad1c288b6b15bf260257ea1471461f3           125688 main/binary-arm64/Packages
+ 0b5b65ef890776351146d39e4482f2a6            14242 main/binary-arm64/Packages.gz
 SHA1:
- 663a15ced6530d30842fbc5fd1fac602d0e4739a           122358 main/binary-amd64/Packages
- c0b209c4cb716aab77b1b8c94567434d58163644            14055 main/binary-amd64/Packages.gz
- 751c97182c00456cc47c90b86047b4d29d2668ae           122250 main/binary-arm64/Packages
- 56f3f19619148f134bffd6bc8b9aeaf0e905b2d9            14026 main/binary-arm64/Packages.gz
+ 1c460a17531924f4f5cb4bae410685bb50fdd7e3           125850 main/binary-amd64/Packages
+ 55d52befe48c662272ac943ba1f03d39f1d9875f            14262 main/binary-amd64/Packages.gz
+ b20353a13ea7db59e38888f6478bc495d821fe0e           125688 main/binary-arm64/Packages
+ 2010dfcd45390716c7b9960e746dcb3d27987624            14242 main/binary-arm64/Packages.gz
 SHA256:
- ef6f007d8f31a2a41b77e6971c1dad7330cac482ff5486227bf90fc6a61c76ce           122358 main/binary-amd64/Packages
- e432aff36aa91c87d4577b48e45eb25f2adc27f04f1f4bc0e8e8b0f070623b7b            14055 main/binary-amd64/Packages.gz
- f550629e64c555dacac20a68c648d8e93c0f6790bc1811faad660566be51b06f           122250 main/binary-arm64/Packages
- 053f6f31bdd521de3a07d57d6f7751adf447247b32b0a3212ee61b95fb82de6a            14026 main/binary-arm64/Packages.gz
+ cfc0a9528516d4fdceca50a35a977ea5512998617de89556a29c52018e8da2eb           125850 main/binary-amd64/Packages
+ dbc385ba148419c29432130b4f5ddb4a952abe7ae5ba602d7774dc5bcace4ffb            14262 main/binary-amd64/Packages.gz
+ 0860cf4564d8b6ecf39c3dbe51a3653284b60df36224a110bf4f5d6412cd3008           125688 main/binary-arm64/Packages
+ 49fd41cf2a0906bcbd7453fe4513c6bb6e2904afe3fb59c4dd94f3d863b5c7d1            14242 main/binary-arm64/Packages.gz
 SHA512:
- 070e881b4200abab43c3fac0545f789d586a8beee1861d1c231d50e04b67460e5f6c2754546efdd185310c716f97fce01ec507fc67e1b08f1f8b48572a112cf5           122358 main/binary-amd64/Packages
- e947424405c8cf25f9d4b45f63f28dac58bd2a387a5a4d9688a4b1ea23e27197b7d1a8fd418b0064e7dbb569e66657971c101c2d55eb4f9bb3ad7ab68e5aacbf            14055 main/binary-amd64/Packages.gz
- a4be1873deb1d9d4fae3bd309e8a65afd2f31a2c400b8625a72e7ed1265bdfeae94b3cbed6ce6542467332ce738a0a816bdce06807f46863df54e83b3cf8b415           122250 main/binary-arm64/Packages
- a2d00f7ea991cd53de141982ca3922bbba9e0e1ba94520b4d77abb2783597802fd2ac6526d30f9d27da58438927bb07a91463def1b39a1a6d7be6cb3f03af6da            14026 main/binary-arm64/Packages.gz
-Valid-Until: Tue, 27 Apr 2027 14:35:51 UTC
+ 9cce6d9d8b0cad5335d7d2deaa853a319bc232527238d98a07fcf6dc83040c71588e6ffa8d71054d4b0d127dee87ef961b252b491391a55cf014555a669271cf           125850 main/binary-amd64/Packages
+ 87fc6d46d3cd17d761a6b42c0c7e1fd4651d647b3bda91bbf67eb08f6299389b2ff0bf4a229e05ed8bdf7809b06cd8ec3008e81a47a167b9616b07a10d29c2dc            14262 main/binary-amd64/Packages.gz
+ 7abcf9c5990f002a871abf1ddfb555e724008c330106b4466225df347f709877aed7dac32edf8b360c54567571002180958177b8c59dc07f4f998221987d594b           125688 main/binary-arm64/Packages
+ 78456f6edf6a178decb9e3f46416e9437e6e133c0e43c73a2df1046895ffc0d6562b2289125609b0c5fa93046f73e8ae5a04a696b457947be47ae2aab8a4aefa            14242 main/binary-arm64/Packages.gz
+Valid-Until: Wed, 28 Apr 2027 11:52:10 UTC
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQT/GurZGXd9GNZwnKWJishYDBdtzAUCauNZyBsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMiwwLDMACgkQiYrIWAwXbcwj5wD+IyZRR4Mo4Uu1nh4uyOaV
-BVVUj82129c50fSqUyESRjwA+wUSZw7tQtWBBLMMBJurRHlH2U/Hqm7jo0LERfQj
-8JgL
-=ra6f
+iJEEARYKADkWIQT/GurZGXd9GNZwnKWJishYDBdtzAUCauSE6xsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQiYrIWAwXbcxxpwD/WgB/KAHQ8/9oQ7AUSy3h
+igR0w82W33c/o1MU6iXlfJ4A/i8A2FpyBEjfqHceWaTjGzIPWrVy3m3qlfXq/hX/
+nHEF
+=xTiv
 -----END PGP SIGNATURE-----

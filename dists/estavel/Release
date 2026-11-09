@@ -1,30 +1,30 @@
 Architectures: amd64 arm64
 Codename: estavel
 Components: main
-Date: Fri, 06 Nov 2026 23:25:16 +0000
+Date: Mon, 09 Nov 2026 15:17:17 +0000
 Description: Atualizacoes do Celita OS
 Label: Celita OS
 Origin: Celita
 Suite: estavel
 Version: 1
 MD5Sum:
- b2d6788d3eecc13c2c4002d1c9083d8c           136567 main/binary-amd64/Packages
- ff7a35ce504acd53e9203d531d60b6c4            14950 main/binary-amd64/Packages.gz
- 0bc92da1e222114a1fba699f6c3b2112           136103 main/binary-arm64/Packages
- 0270e21c97301962346675fa3962efdd            14913 main/binary-arm64/Packages.gz
+ a63f6e65ea18f61aec6aeb0340e84b14           140237 main/binary-amd64/Packages
+ b07ffc5f6e848cf05bdd88251d8ebcc1            15167 main/binary-amd64/Packages.gz
+ 6d6e0316bb3c8957c52b75f3ef7da851           139649 main/binary-arm64/Packages
+ 33233cf4eba83394778ed17b0389026b            15123 main/binary-arm64/Packages.gz
 SHA1:
- 40dfc005eb729ae3008b0971555a878f2e6b6265           136567 main/binary-amd64/Packages
- 0308b598c2ebfceb2bfbcf12d44d7a870f3ef49d            14950 main/binary-amd64/Packages.gz
- c08d167ba6ce88db62f83d0cf57ba1f4e7f18383           136103 main/binary-arm64/Packages
- 82a73ce0a10c5fa4812a4cfb8f1177db5bfbbc75            14913 main/binary-arm64/Packages.gz
+ d9004f06b6e6698e8fcfdde5748bb2531cb80fbc           140237 main/binary-amd64/Packages
+ 6f6f26b06a54c567fae94cd123063eed79be24f0            15167 main/binary-amd64/Packages.gz
+ 470c37fec2217ec26eb56059204ccb2fef0d6095           139649 main/binary-arm64/Packages
+ a9bdc7e3ba16508b48ac12c59b7a3ae49284767d            15123 main/binary-arm64/Packages.gz
 SHA256:
- a6a28ed314934c5cf191728f0fb114ffdad30f071eea11dd58d4b01e33c9afeb           136567 main/binary-amd64/Packages
- 667c5ad93f0127070be2b4f5a8fcbe75018490f4c2caa472be9c9bf45e61cf2c            14950 main/binary-amd64/Packages.gz
- f1aa00d6a2477ba3ff48912d91135e7a684e7330889490b7b95bd6d8919162cf           136103 main/binary-arm64/Packages
- fb225795c185b2951058397a123e84dd607c996cd9e075942002c6bc8828af7a            14913 main/binary-arm64/Packages.gz
+ b8e843b42daf3ad4e81860afaaf04f7d4071c7248f62feaf97315b6f94d49e12           140237 main/binary-amd64/Packages
+ b4cff88c55658c1c51d101ae8feceff221b171c6cefde26d804e9ec5545ba474            15167 main/binary-amd64/Packages.gz
+ 86c827d51ccba8b086e67ec517d50e5b5d767a1385c6e057e7050818a8c0c775           139649 main/binary-arm64/Packages
+ 61ba4026a9b1fdecbe5344c43171cbd4556a1ebafb99509bd5e6d81f402cb54c            15123 main/binary-arm64/Packages.gz
 SHA512:
- 2cd977cbfc724fab812e53af7fc1f6bc079c6805347d5fd726bd52c3718154dd2b8c5a5bffe435cee6796e23142a95a8912d0a78f4b39147ac80499a1ef8ec4d           136567 main/binary-amd64/Packages
- 63b6815fb8539780891db654c1061bcb0e86a144cc5d24b26a782e7ff0ebc89e646dfdba44205c7e1c1f6e9ac72227471e406825687091694b6d5fc9c1140931            14950 main/binary-amd64/Packages.gz
- 093d372040940825d66ceec1a5c82ba2d7a2fc79166bf767b6a913e1eec44301f3e25f3a4aa0bc06af1055afbb8a34a9b335765bf6b1b47be56385c3b7974c92           136103 main/binary-arm64/Packages
- 75d11d01d4f7ae205ea0d95bf1efba79c2fd78f0b1537354c5db2c62190f2cf19282b2d79584b8768050540bd4b24ab671a524ccf92f5f4d33e82bfa4290ce3d            14913 main/binary-arm64/Packages.gz
-Valid-Until: Wed, 05 May 2027 23:25:16 UTC
+ 650d7847eda43f38365bc0ede0ee6ec529e3fcb5fafa10d3001201dce2125d7c6d602a3ecf82624e0e1e820a96e41af1a1ee1216eb028489d22340616b4c3261           140237 main/binary-amd64/Packages
+ be9519a588c6731b8c1dbaaa5a25e3616239e4e273a43855f520b1181c0c40c3baed5979054d0da07db4086942e57b3091f76f0639653984c3b47dc3dbaf4f59            15167 main/binary-amd64/Packages.gz
+ e3bb90d185d8f3ab05ffbf2074d21e72915f29279ee8a582c5cf4bcfb7a00068f30ffab63ba4e58996e817f4078673db014794348d30210afc8cffc214bfb3e2           139649 main/binary-arm64/Packages
+ 77db6cd49044da8296fa01aef202b7976fde2be05a8826333e9f538f76e8228ded55dcfad02f943ba5dc9ce749a8d6edbc40c7bad2a9453ce275e97f15dd114a            15123 main/binary-arm64/Packages.gz
+Valid-Until: Sat, 08 May 2027 15:17:17 UTC
